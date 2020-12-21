@@ -1,0 +1,8 @@
+<!--pages/index/indexComps/cate/cate.wxml-->
+<view class="cate">
+  <block wx:for="{{catesList}}" wx:key="{{index}}">
+    <view class="cate-item">
+      <image src="{{item.image_src}}" mode="widthFix"/>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,12 @@
+<!--pages/index/index.wxml-->
+<!-- 搜索框 -->
+<searchInput/>
+
+<!-- 轮播图 -->
+<swiper list="{{swiperList}}"/>
+
+<!-- 导航 -->
+<cate catesList="{{catesList}}"/>
+
+<!-- 楼层 -->
+<floor floorList="{{floorList}}"/>

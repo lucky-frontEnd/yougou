@@ -1,0 +1,28 @@
+/* pages/index/indexComps/floor/floor.wxss */
+.floor_title {
+  padding: 10rpx;
+}
+
+.floor_title image {
+  width: 100%;
+}
+
+.floor_list {
+  float: left;
+  width: 33.33%;
+}
+
+.floor_list image:nth-last-child(-n+4) {
+  height: 27vh;
+  border: 10rpx solid #ffffff;
+}
+
+.floor_list image:nth-child(2),
+.floor_list image:nth-child(3) {
+  border-bottom: 10rpx solid #ffffff;
+}
+
+.floor_list image {
+  width: 100%;
+  height: 100%;
+}
